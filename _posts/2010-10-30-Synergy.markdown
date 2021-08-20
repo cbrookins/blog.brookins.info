@@ -1,0 +1,13 @@
+---
+layout: post
+title: Synergy
+date: 2010-10-30
+---
+
+*Synergy lets you easily share a single mouse and keyboard between multiple computers with different operating systems, each with its own display, without special hardware. Its intended for users with multiple computers on their desk since each system uses its own monitor(s).*  
+
+Synergy has been one of the most useful pieces of software in my life for the past three or four years.  It allows me to utilize multiple workstations without the use of additional keyboards and mice.  It also saves me the money of buying any kind of KVM device.  You do need a monitor for each workstation, but there are no hot keys to remember or buttons to press.  Synegy is available for Windows, Mac and Linux.  
+
+Setting up Synergy is different on each platform, but the functionality is the same.  Windows comes with a gui to help configure the server and client.  Linux and Mac both use conf files and can be run from a terminal.  There are software packages available for Mac and Linux that provide a gui interface, such as SynergyKM for the Mac.  QuickSynergy is another availbale for Mac and Linux.  
+
+<a href="http://synergy-foss.org" target="_blank">http://synergy-foss.org/</a>

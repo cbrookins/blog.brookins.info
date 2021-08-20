@@ -1,0 +1,20 @@
+# Site Settings
+baseurl: ""
+url: https://unjustdingo.xyz
+name: c2c2
+description:
+
+# Optional (if you not provide an image your blog title and description will be displayed)
+image: c2c2.jpg
+
+# Meta
+meta_author: c2c2
+meta_description: built on jekyll
+
+# Social  (if you do not provide any usernames, the icons will be hidden)
+github: theRealc2c2
+instagram:
+linkedin:
+tumblr:
+twitter: theReal_c2c2
+website: unjustdingo.xyz
