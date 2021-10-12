@@ -1,4 +1,5 @@
 ---
+bg: "server_.gif"
 layout: post
 title: PXE server using a TrueNAS jail
 date: 2021-05-04
