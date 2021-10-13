@@ -8,7 +8,7 @@ tags: ['truenas']
 My FreeNAS cert expired.  Pretty sure I have had it since FreeNAS 9.x and it was the one that came with the distro. I figured it was time to update it. I chose to use a self-signed cert.  
 
 ## Create self-signed SSL certificate  
-I pretty much stuck to the FreeBSD documentation for this.  That can be found [here](https://www.freebsd.org/doc/handbook/openssl.html). This is also what I used for [my Emby setup](https://tech.brookins.info/2020/03/27/Enable-Emby-over-SSL-with-FreeBSD.html), minus a couple of steps.  
+I pretty much stuck to the FreeBSD documentation for this.  That can be found [here](https://www.freebsd.org/doc/handbook/openssl.html). This is also what I used for [my Emby setup]({{site.url}}/2020/03/27/Enable-Emby-over-SSL-with-FreeBSD.html), minus a couple of steps.  
 
 First I generate a key  
 `openssl genrsa -rand -genkey -out cert.key 2048`  

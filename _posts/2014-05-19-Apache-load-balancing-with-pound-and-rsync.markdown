@@ -52,7 +52,7 @@ At the end of the file add
 `*/15 * * * * ~/sync_web.sh`  
 
 ### Configure pound  
-This section will be a bit different depending on what you use to run pound.  In my case I loaded the software on [my router](http://tech.brookins.info/Raspi_Router_), which is a [Raspberry Pi](http://raspberrypi.org) running [IPFire](http://ipfire.org).
+This section will be a bit different depending on what you use to run pound.  In my case I loaded the software on [my router]({{ site.url }}/Raspi_Router_), which is a [Raspberry Pi](http://raspberrypi.org) running [IPFire](http://ipfire.org).
 
 #### IPFire
 To set up [pound](http://apsis.ch/pound) in IPFire I used [this wiki article](http://wiki.ipfire.org/en/addons/pound/start) from the official IPFire wiki.
