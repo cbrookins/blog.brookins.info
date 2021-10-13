@@ -2,6 +2,7 @@
 layout: post
 title: CentOS Team Speak 3 Server
 date: 2012-04-06
+tags: ['centos','linux']
 ---
 
 This guide will help to install Team Speak 3 Server on a CentOS 6 server.  This guide assumes that you have already installed CentOS 6 using the **Minimal** setting. Using a different option during installation should not impact the install of the Team Speak 3 server, but I cannot guarantee that. This was only tested using the default **Minimal** setting.  

@@ -2,6 +2,7 @@
 layout: post
 title: My git setup in Windows
 date: 2015-11-07
+tags: ['windows']
 ---
 
 *This is meant as a reference for me.  I like to nuke and pave my workstation so much that I am constantly setting everything back up the way I like it.  Git is one of those things where I can never remember all the details.*

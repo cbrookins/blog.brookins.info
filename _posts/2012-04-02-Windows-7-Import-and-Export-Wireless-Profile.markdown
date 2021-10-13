@@ -2,6 +2,7 @@
 layout: post
 title: Windows 7 Import and Export Wireless Profile
 date: 2012-04-02
+tags: ['windows']
 ---
 
 I decided to script out my Windows customization so that I do not have to spend hours getting my interface the way that I like it.  I got hung up at the point of setting up my wireless network.  I didnt know how to set my wireless settings automatically.  After a little research in the Technet documentation I found a simple command line utility that is included in Windows 7 that I cannot believe I didnt already know about.  

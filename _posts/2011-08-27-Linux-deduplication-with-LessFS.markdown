@@ -2,6 +2,7 @@
 layout: post
 title: Linux deduplication with LessFS
 date: 2011-08-27
+tags: ['linux']
 ---
 
 De-duplication is a type of compression that looks for redundant data and instead of duplicating data it will create a reference that points to the original source. For example, if you have two images that are exactly the same but one is in your Pictures folder and you copy it to your desktop. Instead of having an exact copy of the image, a "link" is created that points back to the original. If the original image in your Pictures folder is deleted, de-duplication will determine that this resource is still in use and the "link" will remain intact.  

@@ -2,6 +2,7 @@
 layout: post
 title: Remotely manage a MySQL instance
 date: 2012-01-15
+tags: ['mysql']
 ---
 
 I have always liked to manage systems from my own workstation. I have never liked having to log into a server to manage something that I could just as easily do using management software installed on my own workstation.  

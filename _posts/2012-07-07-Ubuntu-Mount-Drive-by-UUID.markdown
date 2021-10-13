@@ -2,6 +2,7 @@
 layout: post
 title: Ubuntu Mount Drive by UUID
 date: 2012-07-07
+tags: ['ubuntu','linux']
 ---
 
 A small issue users can run into is automatically mounting USB drives to the same location every time. This is usually experienced if you work with a lot of USB externals and thumb drives. Most users mount by the dev id (ex. /dev/sda) and partition number (ex. /dev/sda1). This is fine for internal disks, but what about removable. Depending on when they are plugged in and what else is plugged in, they can go from /dev/sdb to /dev/sdc and so on. This is an easy work around.  

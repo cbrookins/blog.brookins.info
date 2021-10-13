@@ -2,6 +2,7 @@
 layout: post
 title: Install SCM Manager in Windows
 date: 2015-05-08
+tags: ['windows']
 ---
 
 **This post assumes you already have a Windows server available**

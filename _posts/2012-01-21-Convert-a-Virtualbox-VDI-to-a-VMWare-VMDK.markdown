@@ -2,6 +2,7 @@
 layout: post
 title: Convert a Virtualbox VDI to a VMWare VMDK
 date: 2012-01-21
+tags: ['virtualbox','vmware']
 ---
 
 I recently made the switch from a headless <a href="http://www.virtualbox.org/" target="_blank">Virtualbox</a> server running <a href="http://code.google.com/p/phpvirtualbox/" target="_blank">PHPVirtualbox</a> to the free <a href="http://www.vmware.com/products/vsphere-hypervisor/overview.html" target="_blank">VMWare vSphere Hypervisor (ESXi)</a>.  Switching out the <a href="http://ubuntu.com/" target="_blank">Ubuntu Server 10.04</a> OS for the vSphere hypervisor was simple.  Took less than thirty minutes.  The problem came when I found out that vSphere doesnt like the <a href="http://en.wikipedia.org/wiki/VDI_(file_format)#Virtual_Disk_Image" target="_blank">VDI</a> files that <a href="http://www.virtualbox.org/" target="_blank">Virtualbox</a> creates by default.  I probably should have checked that first.  

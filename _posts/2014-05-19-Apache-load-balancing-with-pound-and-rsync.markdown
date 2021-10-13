@@ -2,6 +2,7 @@
 layout: post
 title: Apache load balancing with pound and rsync
 date: 2014-05-19
+tags: ['apache','rsync']
 ---
 
 To set this up I used two Ubuntu 12.04 web servers running Apache and a Raspberry Pi, running IPFire, as my load balancer using [pound](http://apsis.ch/pound).

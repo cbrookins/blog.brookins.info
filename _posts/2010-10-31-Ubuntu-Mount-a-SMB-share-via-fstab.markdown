@@ -2,6 +2,7 @@
 layout: post
 title: Ubuntu Mount a SMB share via fstab
 date: 2010-10-31
+tags: ['linux']
 ---
 
 I normally like to mount a share after logging in, only when needed. After fighting with mount.cifs after every update that came down, I finally gave in to fstab. This tutorial goes over how I decided to mount my share at boot. There are many options to choose from when mounting a share, these worked best for me at the time of this tutorial.   
