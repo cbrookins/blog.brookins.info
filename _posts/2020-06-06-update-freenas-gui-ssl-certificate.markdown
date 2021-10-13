@@ -1,4 +1,5 @@
 ---
+bg: "truenas.gif"
 layout: post
 title: Update FreeNAS GUI SSL Certificate
 date: 2020-06-06

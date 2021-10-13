@@ -1,4 +1,5 @@
 ---
+bg: "script.gif"
 layout: post
 title: Setting variables for Cron jobs
 date: 2021-02-05
