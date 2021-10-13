@@ -2,6 +2,7 @@
 layout: post
 title: Enable Emby over SSL with FreeBSD
 date: 2020-03-27
+tags: ['emby','freebsd']
 ---
 
 ## Scenario  

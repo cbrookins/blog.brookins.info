@@ -2,6 +2,7 @@
 layout: post
 title: SSH Tunnel from Windows
 date: 2014-08-22
+tags: ['windows','ssh']
 ---
 
 This is something I have been doing for a while in place of [VPN] (Virtual Private Network).  I didn't want to go through the headache of setting up a [VPN] server and having to worry about a [VPN] client.  In my case I mainly send web traffic through, so this is a much simpler way to achieve that goal.
@@ -95,7 +96,7 @@ That is then end.  This can be extended into all types of things, and can tunnel
 [3]:http://portforward.com/english/routers/port_forwarding/routerindex.htm
 [4]:https://en.wikipedia.org/wiki/Dynamic_DNS
 [5]:https://www.namecheap.com/support/knowledgebase/category.aspx/11/dynamic-dns
-[6]:http://tech.brookins.info/Raspi_Router_
+[6]:{{site.url}}/Raspi_Router_
 
 [i1]:https://3mqtfa-sn3302.files.1drv.com/y2pm2ZeztrG-grB0nta5SviG04pF_ZaEi7XQj3xaUpr2yB3OInUA6Dp4SuaWZNHLQQygZXEIyqBcHgTejdE2UJGabixTsQIx-TAqqgc-4h5caQ/ssh_tunnel_from_windows_router1.png
 [i2]:https://3mqtfa-sn3302.files.1drv.com/y2pdn_SXaIKT_fEkSEtuROZhc0ti1QvYW0kba7g-VgTf0wAH1ng6ogENgbua7lvUGLhfRjjPoGdqYadI66s8Z38OH_czLZlMFXKFe19H9Pvpss/ssh_tunnel_from_windows_router2.png

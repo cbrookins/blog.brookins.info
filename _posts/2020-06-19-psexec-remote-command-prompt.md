@@ -2,12 +2,14 @@
 layout: post
 title: Using PSExec for a remote command prompt
 date: 2020-06-19
+tags: ['workflow','tools']
 ---
 
-## Scenario
 Sometimes you just need to pull up a remote command prompt.  I use this in most cases to verify a device is what I think it is.  I just need to run a simple ``hostname`` command on a end user device.  
   
+
 ## How to
+
 As the title suggests, I use [PSExec][1] to accomplish this.  These days you could also go the Powershell route, but this works more consistently for me at the time of writing. 
 This tool requires that you have admin access to the remote device.  In my case I use this as a SysAdmin where we have implemented [LAPS][4], so I will need to pass a username and password to the command. 
 If you are already admin on the device using your current credentials, possibly a domain environment without a PAW/LAPS setup, then you can exclude **-u** and **-p**. [This page][1] also includes all available parameters.  

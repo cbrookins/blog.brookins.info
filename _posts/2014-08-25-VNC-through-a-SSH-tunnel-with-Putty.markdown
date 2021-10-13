@@ -2,6 +2,7 @@
 layout: post
 title: VNC through a SSH tunnel with Putty
 date: 2014-08-25
+tags: ['putty','ssh']
 ---
 
 **This posts assumes that you already have a SSH tunnel in place.  If you do not, [read this][1] first.**
@@ -49,7 +50,7 @@ All of this traffic is encrypted and no additional ports were required to be ope
 [Putty]:http://www.chiark.greenend.org.uk/~sgtatham/putty/
 [VNC]:http://en.wikipedia.org/wiki/Virtual_Network_Computing
 
-[1]:http://tech.brookins.info/ssh_tunnel_from_windows
+[1]:http://unjustdingo.xyz/ssh_tunnel_from_windows
 [2]:http://www.realvnc.com
 
 [i1]:https://ux5psg-sn3302.files.1drv.com/y2pNkYDxHRG0Z50Z0N0gowvjv8LXp8JfUTa-ARophWSXuzT19ChmCXFWU4LTWNSt72Pjk3D0bCqmtlUpJ6lK6N8vfxC3QzPcfAk4Yzc378MUo4/vnc_through_ssh_tunnel_w_putty_putty1.png

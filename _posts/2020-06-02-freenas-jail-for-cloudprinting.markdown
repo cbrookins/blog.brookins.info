@@ -2,6 +2,7 @@
 layout: post
 title: FreeNAS jail for cloud printing
 date: 2020-06-02
+tags: ['truenas','jails']
 ---
 
 ## Use case  

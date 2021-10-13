@@ -2,6 +2,7 @@
 layout: post
 title: Add your public key to an Azure VM using the Azure Portal
 date: 2020-02-25
+tags: ['azure','microsoft']
 ---
 
 ## Use case  

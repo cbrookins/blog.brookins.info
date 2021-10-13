@@ -2,6 +2,7 @@
 layout: post
 title: Raspi Router
 date: 2013-09-28
+tags: ['raspberry pi','networking']
 ---
 
 I have seen the Raspberry Pi used for a lot of things since its release in 2012, but when I wanted to run one as a router the information was pretty limited.  Most people who posted about their pi routers were manually setting up packet forwarding, some went a step further and made things a little simpler by using Webmin.  I was looking for something more streamlined and dedicated to my router cause.  

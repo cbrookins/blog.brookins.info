@@ -1,5 +1,6 @@
 # Jekyll
 _site/
+.jekyll-cache
 
 # OS generated files
 .DS_Store
