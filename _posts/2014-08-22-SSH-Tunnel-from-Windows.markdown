@@ -1,8 +1,9 @@
 ---
+bg: "windows.gif"
 layout: post
 title: SSH Tunnel from Windows
 date: 2014-08-22
-tags: ['windows','ssh']
+tags: ['windows','ssh','microsoft']
 ---
 
 This is something I have been doing for a while in place of [VPN] (Virtual Private Network).  I didn't want to go through the headache of setting up a [VPN] server and having to worry about a [VPN] client.  In my case I mainly send web traffic through, so this is a much simpler way to achieve that goal.

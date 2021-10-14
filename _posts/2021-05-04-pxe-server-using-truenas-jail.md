@@ -3,7 +3,7 @@ bg: "truenas.gif"
 layout: post
 title: PXE server using a TrueNAS jail
 date: 2021-05-04
-tags: ['truenas','jails']
+tags: ['truenas','jails','freebsd']
 ---
 
 I wanted to test out Linux as a PXE server for reinstalling OSs on my devices at home.  I was tired of messing with USB drives and wanted to be able to PXE boot, choose an OS and go.  Nothing about this requires this be in a TrueNAS jail, these steps should work for anything based on FreeBSD.  It should work on Linux distros also, even though the TFTP package name may be different.

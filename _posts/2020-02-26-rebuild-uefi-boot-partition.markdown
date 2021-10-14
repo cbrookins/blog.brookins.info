@@ -1,8 +1,9 @@
 ---
+bg: "windows.gif"
 layout: post
 title: Rebuild a UEFI boot partition
 date: 2020-02-26
-tags: ['windows']
+tags: ['windows','microsoft']
 ---
 
 ## Preface  

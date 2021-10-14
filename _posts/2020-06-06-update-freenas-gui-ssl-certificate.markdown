@@ -3,7 +3,7 @@ bg: "truenas.gif"
 layout: post
 title: Update FreeNAS GUI SSL Certificate
 date: 2020-06-06
-tags: ['truenas']
+tags: ['truenas','freebsd']
 ---
 
 My FreeNAS cert expired.  Pretty sure I have had it since FreeNAS 9.x and it was the one that came with the distro. I figured it was time to update it. I chose to use a self-signed cert.  

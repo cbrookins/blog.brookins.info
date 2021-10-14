@@ -1,8 +1,9 @@
 ---
+bg: "server_.gif"
 layout: post
 title: SFTP Server with chroot
 date: 2021-04-08
-tags: ['centos']
+tags: ['centos','linux']
 ---
 
 I needed a SFTP server with a few different users who could upload, but not be able to see what the others uploaded.  The default installation allows users to

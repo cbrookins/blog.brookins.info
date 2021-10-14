@@ -1,8 +1,9 @@
 ---
+bg: "windows.gif"
 layout: post
 title: Using PSExec for a remote command prompt
 date: 2020-06-19
-tags: ['workflow','tools']
+tags: ['workflow','tools','windows','microsoft']
 ---
 
 Sometimes you just need to pull up a remote command prompt.  I use this in most cases to verify a device is what I think it is.  I just need to run a simple ``hostname`` command on a end user device.  
