@@ -21,13 +21,13 @@ In my case I use [pi-hole](https://pi-hole.net/) for DNS so it was pretty straig
 This is a sample template that is in line with what I used.  
 ```
 server { 
-    servername app1.example.com;
+    server_name app1.example.com;
     location / {
       proxy_pass https://app1.example.com:8080;
     }
 }
 server { 
-    servername app2.example.com;
+    server_name app2.example.com;
     location / {
       proxy_pass https://app2.example.com:8081;
     }
