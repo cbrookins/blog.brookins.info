@@ -13,3 +13,7 @@ active:
 {% if site.github_username %}
 {{site.github_username}}
 {% endif %}
+
+{% if site.mastodon_username %}
+{{site.mastodon_username}}
+{% endif %}
