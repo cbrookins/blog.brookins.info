@@ -1,4 +1,15 @@
 <footer class="blog-footer content-wrapper">
   <p>&copy; <span class="full-year"></span> {{ site.title }}</p>
+  {% if site.twitter_username %}
+[@{{site.twitter_username}}](https://twitter.com/{{site.twitter_username}})
+{% endif %}
+
+{% if site.github_username %}
+[{{site.github_username}}](https://github.com/{{site.github_username}})
+{% endif %}
+
+{% if site.mastodon_username %}
+[{{site.mastodon_username}}]({{site.mastodon_url}}){:rel="me"}
+{% endif %}
 </footer>
 <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
