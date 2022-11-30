@@ -15,5 +15,5 @@ active: socials
 {% endif %}
 
 {% if site.mastodon_username %}
-[{{site.mastodon_username}}](https://mastodon.social/@{{site.mastodon_username}})
+[{{site.mastodon_username}}]({{site.mastodon_url}})
 {% endif %}
