@@ -3,7 +3,7 @@ layout: page
 title: "Socials"
 crawlertitle: "Socials"
 summary: ""
-active:
+active: socials
 ---
 
 {% if site.twitter_username %}
