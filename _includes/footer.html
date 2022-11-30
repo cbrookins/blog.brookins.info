@@ -1,15 +1,17 @@
 <footer class="blog-footer content-wrapper">
   <p>&copy; <span class="full-year"></span> {{ site.title }}</p>
-  {% if site.twitter_username %}
-  <a href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a>
-{% endif %}
+  <p>
+    {% if site.twitter_username %}
+      <a href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a>
+    {% endif %}
 
-{% if site.github_username %}
-  <a href="https://github.com/{{site.github_username}}">{{site.github_username}}</a>
-{% endif %}
+    {% if site.github_username %}
+      <a href="https://github.com/{{site.github_username}}">{{site.github_username}}</a>
+    {% endif %}
 
-{% if site.mastodon_username %}
-  <a rel="me" href="{{site.mastodon_url}}">{{site.mastodon_username}}</a>
-{% endif %}
+    {% if site.mastodon_username %}
+      <a rel="me" href="{{site.mastodon_url}}">{{site.mastodon_username}}</a>
+    {% endif %}
+  </p>
 </footer>
 <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
