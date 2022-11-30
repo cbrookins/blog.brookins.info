@@ -16,6 +16,7 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: cbrookins
 github_username:  cbrookins
 mastodon_username: cbrookins@mastodon.social
+mastodon_url: https://mastodon.social/@cbrookins
 disqus_username:
 
 # Build settings
