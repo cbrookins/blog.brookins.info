@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "unjust/dingo"
+title: ""
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   > my place on the internet
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
 url: "http://localhost:4000" # the base hostname & protocol for your site
-twitter_username: cbrookins
+twitter_username:
 github_username:  cbrookins
 mastodon_username: cbrookins@mastodon.social
 mastodon_url: https://mastodon.social/@cbrookins
