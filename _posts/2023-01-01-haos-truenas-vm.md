@@ -1,7 +1,9 @@
 ---
+bg: home-assistant.gif
 layout: post
 title: HAOS with a TrueNAS-VM
-date: 
+date: 2023-01-01
+tags: ['truenas','home-assistant','linux','vm','zfs','automation','qemu']
 ---
 
 
