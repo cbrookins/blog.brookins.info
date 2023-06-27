@@ -6,7 +6,7 @@ date: 2023-06-27
 tags: ['workflow','script','git']
 ---
 
-I made the move to Codeberg, but still wanted to keep a presence on GitHub. I decided to set up a mirror on Codeberg that automatically send over to GitHub when commits were pushed. This writing assumes you already have a functional git repo on Codeberg that you want to mirror to GitHub.
+I made the move to Codeberg, but still wanted to keep a presence on GitHub. I decided to set up a mirror on Codeberg that would automatically send over to GitHub when commits were pushed to Codeberg. This writing assumes you already have a functional git repo on Codeberg that you want to mirror to GitHub.
 
 ### GitHub
 On **GitHub** create a new, empty, repository.  
@@ -33,7 +33,7 @@ Paste the **HTTPS URL** into the **Git Remote Repository URL** field
 Drop down **Authorization**  
 Enter your **GitHub username** for **Username**  
 Enter the **Generated token from GitHub** for the password  
-Select the checkbox for **Syn when commits are pushed**  
+Select the checkbox for **Sync when commits are pushed**  
 Set the **Mirror interval** how you like, I left the default  
 Select **Add Push Mirror** button  
 Select the **Synchronize Now** button to test your new mirror
