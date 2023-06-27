@@ -2,7 +2,7 @@
 bg: "script.gif"
 layout: post
 title: Set up a push mirror on Codeberg
-date: 2021-02-05
+date: 2023-06-27
 tags: ['workflow','script','git']
 ---
 
