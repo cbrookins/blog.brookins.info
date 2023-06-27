@@ -6,10 +6,10 @@ date: 2023-06-27
 tags: ['workflow','script','git']
 ---
 
-I made the move to Codeberg, but still wanted to keep a presence on GitHub. I decided to set up a mirror on Codeberg that automatically send over to GitHub when commits were pushed.
-
-This writing assumes you already have a functional git repo on Codeberg that you want to mirror to GitHub.
-
+I made the move to Codeberg, but still wanted to keep a presence on GitHub. I decided to set up a mirror on Codeberg that automatically send over to GitHub when commits were pushed.  
+  
+This writing assumes you already have a functional git repo on Codeberg that you want to mirror to GitHub.  
+  
 ### GitHub
 On **GitHub** create a new, empty, repository.  
 Grab the **HTTPS** URL from the **Quick setup** page, you will need this once we switch to Codeberg  
