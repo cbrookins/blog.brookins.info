@@ -72,12 +72,12 @@ a {
 * Header
 * ========================================================================== */
 .main-header {
-  background-color: #fdfdfd;
+  background-color: #191b1c;
   position: fixed;
   z-index: 100;
   width: 100%;
   top: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #3a3e41;
 }
 
 
@@ -108,12 +108,12 @@ a {
     order: 1;
     line-height: 50px;
     margin: auto;
-    color: #333;
+    color: #c8c3bc;
     text-decoration: none;
     &:hover,
     &:focus,
     &:active {
-      color: #766257;
+      color: #a7a094;
     }
   }
 }
@@ -232,23 +232,23 @@ article {
     display: block;
     margin: 1em auto;
     padding: .2em;
-    background-color: #fff;
+    background-color: #181a1b;
   }
 }
 
 .post-meta {
   padding-bottom: .5em;
   text-transform: uppercase;
-  color: #b9b9b9;
+  color: #bcb6ad;
   font-size: 70%;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
   a, a:hover, a:focus, a:visited {
-    color: #333;
+    color: #c8c3bc;
   }
 
   .meta-black {
-    color: #333;
+    color: #c8c3bc;
   }
 
 }
@@ -267,7 +267,7 @@ article {
 .year li {
   padding: 5px;
   padding: 8px 10px;
-  border-bottom: 1px dotted #eae4da
+  border-bottom: 1px dotted #4c402b
 }
 
 .year a {
@@ -281,7 +281,7 @@ article {
 .date {
   text-align: right;
   float: right;
-  color: #d4d4d4;
+  color: #cdc8c2;
   display: none;
 }
 
@@ -294,7 +294,7 @@ article {
   height: 4em;
   margin: 5em auto 0;
   font-size: 70%;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #3a3e41;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.5em;
@@ -314,20 +314,20 @@ article {
   text-decoration: none;
   outline: none;
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid #3a3e41;
   transition: border-color .5s ease-in 0s;
-  &:hover { border-color: #0D243B; }
+  &:hover { border-color: #807769; }
 
   &__prev, &__next {
     font-size: .8em;
-    color: #333;
+    color: #c8c3bc;
     margin: 10px 0;
   }
 
   &__title {
     font-size: 1em;
     font-weight: bold;
-    color: #333;
+    color: #c8c3bc;
     margin-top: 10px;
     display: block;
   }
