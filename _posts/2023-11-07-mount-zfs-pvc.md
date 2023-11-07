@@ -1,4 +1,5 @@
 ---
+bg: truenas_scale.gif
 layout: post
 title: Mount ZFS PVC
 date: 2023-11-07
