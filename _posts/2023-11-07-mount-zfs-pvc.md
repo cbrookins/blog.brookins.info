@@ -47,4 +47,7 @@ zfs set mountpoint=legacy PATH/TO/PVC
 
 EXAMPLE:
 zfs set mountpoint=legacy One/ix-applications/releases/flatnotes/volumes/pvc-b976c745-6c53-49d8-9d19-e2f47072a73e
-```
+```  
+
+### Sources
+At the time of writing I found this information in the official [TrueCharts manual](https://truecharts.org/manual/SCALE/guides/pvc-access/).
