@@ -5,7 +5,7 @@ date: 2023-11-07
 tags: ['workflow','commands','zfs','truenas']
 ---
 
-I have always been a fan of having my Kubernetes data easily accessible using a host path, along with a share so that I could access those host paths.  Come to find out, that is not considered best practice.  Mostly due to permission issues that can arise maintaining the container files along with the share itself.  To fix this I am moving to using a PVC (Persistent Volume Claim). This is my process for **TrueNAS**. Some of these commands should be usable for other distros and Kubernetes setups, but I have not tested or verified that.
+I have always been a fan of having my Kubernetes data easily accessible using a host path, along with a share so that I could access those host paths.  Come to find out, that is not considered best practice.  Mostly due to permission issues that can arise maintaining the container files along with the share itself.  To fix this I am moving to using a PVC (Persistent Volume Claim). This is my process for **TrueNAS**. The **k3s/kubectl/zfs** commands should be usable for other distros and Kubernetes setups.
 
 ### Identify the PVC
 First lets get a list of all the PVC that we have.  
