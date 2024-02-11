@@ -36,9 +36,7 @@ EXAMPLE:
 zfs set mountpoint=/flatnotes One/ix-applications/releases/flatnotes/volumes/pvc-b976c745-6c53-49d8-9d19-e2f47072a73e
 ```
 
-You can now access the volume at the mount point.  
-
-One thing to keep in mind is that the mount is being done with ZFS, so it is being mounted in your pool.  Where we entered **/flatnotes** is actually **/mnt/POOL_NAME/flatnotes** when browsing.  
+You can now access the volume at the mount point.   
 
 ### Restore the original mount  
 When you are done you need to remount it back to where it was with the following use the PATH/TO/PVC from earlier
