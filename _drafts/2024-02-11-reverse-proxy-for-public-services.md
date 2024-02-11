@@ -9,7 +9,7 @@ tags: ['docker','ubuntu','nginx','cloudflare']
 I run a few services inside my homelab, and most of those services have no business on the internet.  I recently set up a couple that I did want to make available externally.  I knew I didn't want to just open up a port directly to the service, and my tailnet would not do the trick for these particular services.  Reverse proxy is where I landed.  This way I can open port 443 and serve all of the services I need.
 
 ## Cloudflare
-I used a few **Cloudflare** services to accomplish this project.  
+I used a few [**Cloudflare**](https://cloudflare.com) free services to accomplish this project.  
 
 I started by creating and downloading an **Origin Server** certificate.  This will be needed to verify my service with Cloudflare.  
 
@@ -78,6 +78,9 @@ server {
     }
 }```
 ```
+
+## ddns-updater
+I used the [**ddns-updater**](https://github.com/qdm12/ddns-updater) project in a container to keep the Cloudflare DNS entries up to date if my IP happened to change.  Cloudflare DNS documentation suggests using their **API**, [**ddclient**](https://ddclient.net/) and [**DNS-O-Matic**](https://www.dnsomatic.com/), but I was familiar with this project, and already using it, so I stuck with it and it works pretty nicely.
 
 ## Router
 On my router I only had to expose port **443** to this Raspberry Pi so that it could serve up the encrypted websites.  I am actually using **Cloudflare** to force everything to **http** so there was no need to expose 80 for any redirects.
