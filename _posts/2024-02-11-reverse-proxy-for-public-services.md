@@ -18,7 +18,23 @@ I also randomly generated some urls to use for the services, they will be public
 ## Nginx
 I went with **NGINX** because I was [already familiar with it](https://blog.brookins.info/NGINX-proxy-for-Docker/).  I am currently running it in a docker container on a Raspberry Pi 4.  
 
-I mounted the **Cloudflare** origin server certificate and key to from the host to **/cert.pem** and **/cert.key** inside the NGINX container.  This is required if you are using Full end to end encryption with **Cloudflare**.  
+I mounted the **Cloudflare** origin server certificate and key from the host to **/cert.pem** and **/cert.key** inside the NGINX container.  This is required if you are using Full end to end encryption with **Cloudflare**.  
+
+### Example Docker compose file
+```
+services:
+    web:
+        container_name: nginx
+        image: nginx:latest
+        volumes:
+            - ./nginx/templates:/etc/nginx/templates
+            - /etc/ssl/cert.pem:/cert.pem
+            - /etc/ssl/key.pem:/key.pem
+        ports:
+            - "80:80"
+            - "443:443"
+        restart: unless-stopped
+```
 
 ### Example NGINX template
 ```
