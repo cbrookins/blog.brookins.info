@@ -2,7 +2,7 @@
 bg: "script.gif"
 layout: post
 title: NGINX reverse proxy for public services
-date: 2022-02-11
+date: 2024-02-11
 tags: ['docker','ubuntu','nginx','cloudflare']
 ---
 
