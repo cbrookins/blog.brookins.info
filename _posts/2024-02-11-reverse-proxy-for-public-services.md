@@ -3,7 +3,7 @@ bg: "script.gif"
 layout: post
 title: NGINX reverse proxy for public services
 date: 2024-02-11
-tags: ['docker','ubuntu','nginx','cloudflare']
+tags: ['docker','ubuntu','nginx','cloudflare','raspberry-pi','ddns-updater']
 ---
 
 I run a few services inside my homelab, and most of those services have no business on the internet.  I recently set up a couple that I did want to make available externally.  I knew I didn't want to just open up a port directly to the service, and my tailnet would not do the trick for these particular services.  Reverse proxy is where I landed.  This way I can open port 443 and serve all of the services I need.
