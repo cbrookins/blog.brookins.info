@@ -99,4 +99,4 @@ server {
 I used the [**ddns-updater**](https://github.com/qdm12/ddns-updater) project in a container to keep the Cloudflare DNS entries up to date if my IP happened to change.  Cloudflare DNS documentation suggests using their **API**, [**ddclient**](https://ddclient.net/) and [**DNS-O-Matic**](https://www.dnsomatic.com/), but I was familiar with this project, and already using it, so I stuck with it and it works pretty nicely.
 
 ## Router
-On my router I only had to expose port **443** to this Raspberry Pi so that it could serve up the encrypted websites.  I am actually using **Cloudflare** to force everything to **http** so there was no need to expose 80 for any redirects.
+On my router I only had to expose port **443** to this Raspberry Pi so that it could serve up the encrypted websites.  I am actually using **Cloudflare** to force everything to **https** so there was no need to expose 80 for any redirects.
