@@ -38,7 +38,7 @@ services:
 
 ### Example NGINX template
 ```
-```server {
+server {
     server_name npzri.domain.com;
     listen 443 ssl;
     ssl_certificate /cert.pem;
@@ -92,7 +92,7 @@ server {
         proxy_set_header Upgrade $http_upgrade;
         proxy_pass http://192.168.0.200:30042;
     }
-}```
+}
 ```
 
 ## ddns-updater
