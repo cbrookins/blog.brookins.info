@@ -2,7 +2,7 @@
 bg: "server_.gif"
 layout: post
 title: Cloudflare mailing list
-date: 2024-00-406
+date: 2024-04-06
 tags: ['email','cloudflare','workers']
 ---
 
