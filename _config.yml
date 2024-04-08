@@ -42,3 +42,4 @@ sass:
 include: [ "/.well-known" ]
 
 images: '/assets/images'
+gifs: '/assets/gifs'
