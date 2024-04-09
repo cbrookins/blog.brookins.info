@@ -12,7 +12,9 @@ I have used **Google Domains** for the past five years or so.  One of the weirde
 Cludflare email workers ***"allow you to create custom scripts and process your emails according to your specific requirements"***.
 
 ### Create an Email Worker
-Creating an email worker is pretty straight forward.
+Creating an email worker is pretty straight forward.  From the Cloudflare dashboard, select **Websites** > **your domain** > **Email** > **Email Workers** tab.
+
+Now select the **Create** button.
 
 ![none](https://github.com/cbrookins/tech.brookins.info/raw/main/assets/images/cloudflare_email_worker_01.png "none")
 
