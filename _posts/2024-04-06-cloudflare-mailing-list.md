@@ -20,8 +20,6 @@ Now select the **Create** button.
 
 ![none](https://github.com/cbrookins/tech.brookins.info/raw/main/assets/images/cloudflare_email_worker_02.png "none")
 
-![none](https://github.com/cbrookins/tech.brookins.info/raw/main/assets/images/cloudflare_email_worker_03.png "none")
-
 The following is the code I used
 
 ```
@@ -35,7 +33,9 @@ export default {
 }
 ```
 
-Once that is completed you need to create a ***Email route***.  Here you determine the email address you want to use and email sent to that address will go to your Email Worker.
+Once you **Save and deploy** you need to create a ***Email route***.  Here you determine the email address you want to use and email sent to that address will go to your Email Worker.
+
+![none](https://github.com/cbrookins/tech.brookins.info/raw/main/assets/images/cloudflare_email_worker_03.png "none")
 
 ![none](https://github.com/cbrookins/tech.brookins.info/raw/main/assets/images/cloudflare_email_route_01.png "none")
 
