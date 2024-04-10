@@ -26,5 +26,4 @@ Shiori has given me back control of my bookmarks and the peace of mind that come
 
 If you're looking for a self-hosted bookmark manager that's powerful yet approachable, I highly recommend checking out Shiori. It might just be the perfect solution for taking back control of your online reading experience.  
 
-Here is an iOS shortcut I threw together.  
-https://www.icloud.com/shortcuts/6742e9e3dd9a44be9ffb78083fa3d168
+Here is an [iOS shortcut](https://www.icloud.com/shortcuts/6742e9e3dd9a44be9ffb78083fa3d168) I threw together.  
