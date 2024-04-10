@@ -2,6 +2,7 @@
 bg: "server_.gif"
 layout: post
 title: Shiori bookmark manager
+slug: shiori-bookmark-manager
 date: 2024-04-06
 tags: ['bookmarks','archive','self-hosted','shortcut','ios','extension','docker']
 ---
@@ -13,8 +14,6 @@ What if the service shut down? What if they changed their terms of service and l
 That's when I started looking for a self-hosted bookmark manager. I wanted something that was private, secure, and completely under my control. After some digging, I stumbled upon [Shiori](https://github.com/go-shiori/shiori), and let me tell you, it's been a game-changer.
 
 ### Why Shiori?
-
-Here's what makes Shiori stand out for me:
 
 **Self-Hosted**: This is the biggest win. My bookmarks are stored on my own server, giving me complete control and peace of mind.  
 **Simple and Powerful**: Shiori offers all the essential bookmarking features – adding, editing, deleting, and searching. But it doesn't overwhelm you with unnecessary clutter.  
