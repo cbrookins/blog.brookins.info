@@ -32,6 +32,7 @@ jobs:
           message: "New Blog Post"
           # Base URL of your blog post where your posts are hosted
           base_blog_url: "https://blog.brookins.info/"
+          base_directory: "_posts/"
           # access token of your Mastodon account
           access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
           # Mastodon instance URL, default is fosstodon.org
