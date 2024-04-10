@@ -2,7 +2,7 @@
 bg: "server_.gif"
 layout: post
 title: Shiori bookmark manager
-date: 2024-04-06
+date: 2024-04-10
 tags: ['bookmarks','archive','self-hosted','shortcut','ios','extension','docker']
 ---
 
