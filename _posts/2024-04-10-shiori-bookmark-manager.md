@@ -14,16 +14,12 @@ That's when I started looking for a self-hosted bookmark manager. I wanted somet
 
 ### Why Shiori?
 
-**Self-Hosted**: This is the biggest win. My bookmarks are stored on my own server, giving me complete control and peace of mind.  
-**Simple and Powerful**: Shiori offers all the essential bookmarking features – adding, editing, deleting, and searching. But it doesn't overwhelm you with unnecessary clutter.  
-**Double Duty**: Shiori works as both a command-line application and a web application. This flexibility is fantastic! I can manage my bookmarks on the go from the web interface or use the command line for quick access.  
-**Offline Access**: Shiori can optionally create an offline archive of the webpages you bookmark. This means you can access them even without an internet connection.  
+**Self-Hosted**: This is the biggest win. My bookmarks are stored on my own server, giving me complete control. 
+
 **Web Extension Support**: There's even a web extension for Firefox and Chrome, allowing you to seamlessly save bookmarks from your browser directly to Shiori.
 
-### Taking Back Control
+### Filling the Gap
 
-Shiori has given me back control of my bookmarks and the peace of mind that comes with knowing they're safe and secure. Plus, it's surprisingly user-friendly, making it a great option for both tech-savvy users and those who prefer a simpler approach.  
-
-If you're looking for a self-hosted bookmark manager that's powerful yet approachable, I highly recommend checking out Shiori. It might just be the perfect solution for taking back control of your online reading experience.  
+The only thing it was missing was a  way to bookmark something from my iPhone.
 
 Here is an [iOS shortcut](https://www.icloud.com/shortcuts/6742e9e3dd9a44be9ffb78083fa3d168) I threw together.  
